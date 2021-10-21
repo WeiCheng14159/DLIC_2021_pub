@@ -64,6 +64,7 @@ rtl: $(BUILD) cp_tb_src
 	+incdir+$(SRC_DIR) \
 	+nc64bit \
 	+access+r \
+	+notimingcheck \
 	+define+SHM_FILE=\"$(TOP).shm\" \
 	+define+FSDB_FILE=\"$(TOP).fsdb\"
 

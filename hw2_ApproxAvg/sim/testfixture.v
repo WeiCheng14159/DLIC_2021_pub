@@ -1,5 +1,5 @@
 `timescale 1ns/10ps
-`define CYCLE  300        	// Modify your clock period here
+`define CYCLE  30        	// Modify your clock period here
 
 `define INFILE "in.dat"
 `define OUTFILE "out_golden.dat"  
